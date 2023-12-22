@@ -23,9 +23,24 @@ function Login() {
             type="password"
             placeholder="Password"
           />
-          <button className="bg-red-700 mx-10 h-12 my-6 rounded">
+          <button className="bg-red-700 mx-10 h-12 mt-6 rounded">
             Sign In
           </button>
+          <div className="mx-10 flex items-center justify-between text-xs">
+            <div className="flex items-center">
+              <input
+                id="remember-me"
+                className="accent-[#4c4c4c]"
+                type="checkbox"
+              />
+              <label htmlFor="remember-me">
+                <span className="ml-1 text-[#4c4c4c]">Remember me</span>
+              </label>
+            </div>
+            <a className="text-[#4c4c4c]" href="#">
+              Need help?
+            </a>
+          </div>
         </form>
       </div>
     </div>
