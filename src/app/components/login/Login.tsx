@@ -1,5 +1,5 @@
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from "./Footer";
+import Header from "./Header";
 import LoginBackground from "./LoginBackground";
 import LoginForm from "./LoginForm";
 
