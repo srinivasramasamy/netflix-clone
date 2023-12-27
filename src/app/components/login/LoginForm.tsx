@@ -1,7 +1,7 @@
 function LoginForm() {
   return (
     <div>
-      <form className="absolute flex flex-col gap-4 w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[.70] p-4 text-white">
+      <form className="absolute flex flex-col gap-4 w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[.75] p-4 text-white">
         <h1 className="mx-10 mt-10 h-10 text-3xl">Sign In</h1>
         <input
           className="mx-10 h-12 bg-[#333] px-5 rounded focus:outline-none focus:bg-[#444]"

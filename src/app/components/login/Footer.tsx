@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="absolute w-full  bg-black bg-opacity-[.70] h-1/3 -bottom-1/2 text-[#656565] text-xs">
+    <div className="absolute w-full  bg-black bg-opacity-[.75] h-1/3 -bottom-1/2 text-[#656565] text-xs">
       <div className="flex flex-wrap mx-32 gap-y-3">
         <a className="basis-1/4">FAQ</a>
         <a className="basis-1/4">Help Center</a>
